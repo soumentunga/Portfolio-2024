@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem  /* 80/16 */;
+    background-color: rgba(10, 19, 48, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid 0.0625rem  /* 1/16 */ rgba(157, 157, 157, 0.2);
+    z-index: 99;
+    backdrop-filter: blur(0.625rem  /* 10/16 */);
+}
+
+.top_nav {
+    display: none;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 1.4375rem  /* 23/16 */;
+    font-weight: 600;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #BFC8D5;
+    transition: color 0.15s ease;
+}
+
+nav ul li a:hover {
+    color:burlywood
+}

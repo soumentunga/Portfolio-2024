@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title, icons and favicon -->
+    <title> Developer Soumen Portfolio </title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="Assets/Images/favicon.png" type="image/x-icon">
+    <link 
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+>
+    <!-- fonts -->
+   
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="Assets/CSS/general.css">
+    <!-- <link rel="stylesheet" href="Assets/CSS/scrollbar.css"> -->
+    <link rel="stylesheet" href="Assets/CSS/header.css">
+    <link rel="stylesheet" href="Assets/CSS/section%20css/1st_section.css">
+    <link rel="stylesheet" href="Assets/CSS/section%20css/2nd_section.css">
+    <link rel="stylesheet" href="Assets/CSS/section%20css/3rd_section.css">
+    <link rel="stylesheet" href="Assets/CSS/section%20css/4th_section.css">
+    <link rel="stylesheet" href="Assets/CSS/section%20css/5th_section.css">
+    <link rel="stylesheet" href="Assets/CSS/section%20css/6th_section.css">
+    <link rel="stylesheet" href="Assets/CSS/footer.css">
+    <link rel="stylesheet" href="Assets/CSS/responsive.css">
+</head>
+
+<body>
+<!-- navbar -->
+<nav>
+    <div class="left">Soumen's Dev Portfolio</div>
+    <div class="right">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Navbar for mobile screens -->
+<div class="top_nav">
+    <a href="#home" class="active">Soumen's Portfolio</a>
+    <!-- Hidden checkbox to toggle menu visibility -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <!-- Hamburger icon (label) to toggle the checkbox -->
+    <label for="menu-toggle" class="icon">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </label>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+
+<!-- main -->
+<main>
+    <!-- home -->
+    <section id="home" class="first-Section">
+        <div class="leftSection">Hi, Myself <span class="purple">Soumen</span>
+
+            <div>and i am passionate</div>
+            <div class="typing-wrapper"></div>
+            <span id="element"></span>
+            <div class="buttons">
+                <a target="_blank" class="btn-link"
+                   href="resume.pdf">
+                    <button class="btn">
+                        Download Resume
+                    </button>
+                </a>
+                <a target="_blank" class="btn-link" href="https://github.com/soumentunga">
+                    <button class="btn">
+                        Visit GitHub
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="rightSection"><img src="./Assets/Images/profile_pic.jpeg" alt="profile Pic"></div>
+    </section>
+    <hr>
+
+    <!-- about -->
+    <section class="second-Section" id="about">
+        <span class="text-gray">who am i?</span>
+        <h1>About me</h1>
+        <div class="second-container">
+            <p>
+                Greetings! I'm Soumen Tunga, a passionate web developer with a knack for crafting dynamic and interactive
+                online experiences. Armed with a solid foundation in HTML, CSS, and JavaScript, I excel at transforming
+                concepts into functional, user-friendly websites.
+                <br>
+                <br>
+                My journey in web development commenced during my first year in college, and since then, I've been
+                fortunate to contribute to a diverse range of projects. From designing responsive layouts to fine-tuning
+                performance, I'm dedicated to delivering solutions that consistently surpass expectations.
+                <br>
+                <br>
+                In addition to front-end development, I'm well-versed in back-end technologies such as Node.js and
+                Python. This proficiency enables me to construct robust, scalable applications adept at managing complex
+                data and ensuring seamless user interactions.
+            </p>
+            <img src="Assets/Images/dev_preview.png" alt="">
+        </div>
+    </section>
+    <hr>
+
+    <!-- skills -->
+    <section class="third-Section" id="skills">
+        <span class="text-gray">what are inside my web-dev toolbox?</span>
+        <h1>my Skills</h1>
+        <div class="third-container">
+            <img src="Assets/Images/developer.svg" alt="">
+            <section class="skills section">
+                <div class="skills__container bd-grid">
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">35%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-bootstrap skills__icon'></i>
+                            <span class="skills__name">BOOTSTRAP</span>
+                        </div>
+                        <div class="skills__bar skills__bootstrap">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">55%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <hr>
+
+    <!-- projects -->
+    <section class="forth-Section" id="projects">
+        <span class="text-gray">what projects i have done so far?</span>
+        <h1>my Projects</h1>
+        <div class="forth-container">
+            <div class="card" id="card1">
+                <div class="overlay">
+                    <img class="overlay__img" src="Assets/Images/project%20Images/project_1.png" alt="">
+                    <h4>YouTube Clone</h4>
+                    <p>
+                        YouTube Clone is a front-end clone of the popular video-sharing platform, YouTube. It aims to
+                        recreate the familiar and user-friendly interface of YouTube.
+                    </p>
+                  
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <div class="overlay">
+                    <img class="overlay__img" src="Assets/Images/project%20Images/project_2.png" alt="">
+                    <h4>Mom & Pop's Bakery</h4>
+                    <p>
+                        Mom & Pop's Bakery is a bakery website front-end web development project that showcase my HTML,
+                        CSS, Bootstrap, and overall web
+                        design skills.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <div class="overlay">
+                    <img class="overlay__img" src="Assets/Images/project%20Images/project_3.png" alt="">
+                    <h4>Netflix Clone 2023</h4>
+                    <p>
+                        Welcome to the Netflix Clone project! This front-end project aims to recreate the immersive and user-friendly interface of the popular streaming platform, Netflix.
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="card" id="card4">
+                <div class="overlay">
+                    <img class="overlay__img" src="Assets/Images/project%20Images/project_4.png" alt="">
+                    <h4>College Website</h4>
+                    <p>
+                        This endeavor encompasses both frontend and backend development, serving as a personal platform
+                        for honing comprehensive web development skills.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card" id="card5">
+                <div class="overlay">
+                    <img class="overlay__img" src="Assets/Images/project%20Images/project_5.png" alt="">
+                    <h4>iCoder Bootstrap</h4>
+                    <p>
+                        iCoder is a blogging platform tailored for individuals passionate about coding,
+                        just like you! It utilizes Bootstrap to deliver a polished
+                        and contemporary interface.
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="card" id="card6">
+                <div class="overlay">
+                    <img class="overlay__img" src="Assets/Images/project%20Images/project_6.png" alt="">
+                    <h4>Portfolio Page</h4>
+                    <p>
+                        Portfolio Page is my portfolio 2024 website front-end web development project that showcase my
+                        HTML,
+                        CSS overall web
+                        design skills.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- services -->
+    <section class="fifth-Section" id="services">
+        <span class="text-gray">what services do i provide?</span>
+        <h1>Services</h1>
+        <div class="fifth-Section">
+            <div class="services">
+                <div class="service_container service_1">
+                    <i class="services_icon fa-solid fa-image"></i>
+                    <h4>
+                        Graphic Design
+                    </h4>
+                    <p>
+                        I specialize in graphic design, web development, and web design. From logos to high-performance
+                        websites, I create engaging digital experiences for diverse audiences.
+                    </p>
+                </div>
+                <div class="service_container service_2">
+                    <i class="services_icon fa-solid fa-code"></i>
+                    <h4>
+                        Web Development
+                    </h4>
+                    <p>
+                        I specialize in graphic design, web development, and web design. This means creating visually
+                        appealing materials and building user-friendly, responsive, user-friendly websites.
+                    </p>
+                </div>
+                <div class="service_container service_3">
+                    <i class="services_icon fa-solid fa-pen-nib"></i>
+                    <h4>
+                        UI/UX
+                    </h4>
+                    <p>
+                        As a graphic designer, web developer, and web designer, I offer a range of creative services.
+                        From logos to SEO-optimized websites, I deliver engaging digital solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- contact -->
+    <section class="sixth-Section" id="contact">
+        <span class="text-gray">send me a message for any quary</span>
+        <h1>Contact me</h1>
+        <div class="sixth-container">
+            <div class="contact-col">
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Enter your name" required/>
+                    <input type="email" name="email" placeholder="Enter your email" required/>
+                    <textarea name="message" placeholder="Message" rows="10" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- footer -->
+<footer class="footer-distributed">
+    <div class="footer-left">
+        <h3>Soumen<span>Tunga</span></h3>
+        <p class="footer-links">
+            <a href="#home" class="link-1">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </p>
+        <p class="footer-company-name">Soumen Tunga © 2024</p>
+    </div>
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Mahishadal, Purba Medinipur</span> West Bengal,India</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 999999999</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:tungasoumen7@gmail.com">tungasoumen7@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About me</span>
+            Studying Computer Science & Engineering. Passionate Web & Blockchain Developer.
+        </p>
+        <div class="footer-icons">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100083726155097"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="https://x.com/TungaSoumen"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/soumen-tunga/"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://github.com/soumentunga"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>

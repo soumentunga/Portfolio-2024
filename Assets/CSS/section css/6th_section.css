@@ -1,0 +1,76 @@
+.sixth-Section {
+    max-width: 80vw;
+    margin: auto auto 4.375rem  /* 70/16 */;
+}
+
+.sixth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.125rem  /* 50/16 */;
+}
+
+.sixth-Section h1 {
+    font-size: 2rem;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 1.875rem  /* 30/16 */;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem  /* 40/16 */;
+}
+
+.contact-col div p {
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-col div h5 {
+    font-size: 1.25rem  /* 20/16 */;
+    margin-bottom: 0.3125rem  /* 5/16 */;
+    color: #555;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-col input,
+.contact-col textarea {
+    background-color: transparent;
+    color: #d8d8d8;
+    width: 100%;
+    border-radius: 0.3125rem  /* 5/16 */;
+    padding: 0.9375rem  /* 15/16 */;
+    margin-bottom: 1.0625rem  /* 17/16 */;
+    outline: none;
+    border: 0.0625rem  /* 1/16 */ solid rgba(204, 204, 204, 0.3);
+    box-sizing: border-box;
+}
+
+.contact-col input:focus,
+.contact-col textarea:focus {
+    background-color: #33334D;
+    color: white;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.75rem  /* 12/16 */;
+    background-color: #1e2167;
+    color: white;
+    border: 0.0625rem  /* 1/16 */ solid rgba(157, 157, 157, 0.4);
+    border-radius: 0.375rem  /* 6/16 */;
+    font-size: 1.25rem  /* 20/16 */;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #5053ab;
+    border: 0.0625rem  /* 1/16 */ solid white;
+}
+

@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+footer {
+    font-family: Open Sans, serif;
+}
+
+.footer-distributed {
+    background: #000d37;
+    box-shadow: 0 0.0625rem  /* 1/16 */ 0.0625rem  /* 1/16 */ 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 1rem  /* 16/16 */ sans-serif;
+    padding: 3.4375rem  /* 55/16 */ 3.125rem  /* 50/16 */;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 2.25rem  /* 36/16 */ 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 1.25rem  /* 20/16 */ 0 0.75rem  /* 12/16 */;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #BFC8D5;
+    font-size: 0.875rem  /* 14/16 */;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #BFC8D5;
+    color: #000d37;
+    font-size: 1.5625rem  /* 25/16 */;
+    width: 2.375rem  /* 38/16 */;
+    height: 2.375rem  /* 38/16 */;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.625rem  /* 42/16 */;
+    margin: 0.625rem  /* 10/16 */ 0.9375rem  /* 15/16 */;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa {
+    font-size: 1.0625rem  /* 17/16 */;
+    line-height: 2.375rem  /* 38/16 */;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 0.875rem  /* 14/16 */;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 1.25rem  /* 20/16 */;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 0.3125rem  /* 5/16 */;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 1.25rem  /* 20/16 */;
+    color: #92999f;
+    font-size: 0.9375rem  /* 15/16 */;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 1.25rem  /* 20/16 */;
+    font-weight: bold;
+    margin-bottom: 1.25rem  /* 20/16 */;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 1.5625rem  /* 25/16 */;
+}
+
+.footer-distributed .footer-icons a {
+    padding: 0.3125rem  /* 5/16 */;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #BFC8D5;
+    border-radius: 0.125rem  /* 2/16 */;
+    font-size: 1.25rem  /* 20/16 */;
+    color: #000021;
+    text-align: center;
+
+    margin-right: 0.1875rem  /* 3/16 */;
+    margin-bottom: 0.3125rem  /* 5/16 */;
+
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #000021;
+    color: white;
+}
+
+
+@media (max-width: 55rem  /* 880/16 */) {
+
+    .footer-distributed {
+        font: bold 0.875rem  /* 14/16 */ sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 2.5rem  /* 40/16 */;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}

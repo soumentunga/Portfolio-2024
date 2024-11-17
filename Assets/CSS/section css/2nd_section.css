@@ -1,0 +1,33 @@
+.second-Section {
+  max-width: 80vw;
+  margin: auto;
+  padding-bottom: 2.5rem /* 40/16 */;
+  animation: fadeInLeft 1s ease-out forwards;
+  opacity: 0; /* Start with hidden content */
+  animation-delay: 0.5s; /* Delay slightly after page load */
+}
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+.second-container {
+  margin-top: 1.875rem /* 30/16 */;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-Section h1 {
+  font-size: 2rem;
+}
+
+.second-container img {
+  width: 40.625rem /* 650/16 */;
+}

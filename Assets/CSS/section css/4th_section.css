@@ -1,0 +1,104 @@
+.forth-Section {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.forth-container {
+    margin-top: 3.125rem  /* 50/16 */;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth-Section h1 {
+    font-size: 2rem;
+}
+
+.forth-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 2rem;
+}
+
+/* cards */
+
+.card {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.625rem  /* 10/16 */;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border: 0.0625rem  /* 1/16 */ solid rgba(204, 204, 204, 0.3);
+    transition: all ease 0.3s;
+}
+
+.card:hover {
+    border: 0.0625rem  /* 1/16 */ solid rgba(204, 204, 204, .5);
+    transform: translateY(-0.3125rem  /* -5/16 */);
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 0.625rem  /* 10/16 */;
+    transition: all ease 0.3s;
+}
+
+.overlay:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.overlay h4 {
+    margin-left: 1.5625rem  /* 25/16 */;
+    padding-top: 0.625rem  /* 10/16 */;
+    font-size: 1.5625rem  /* 25/16 */;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #000021;
+}
+
+.overlay p {
+    padding: 0.625rem  /* 10/16 */ 1.5625rem  /* 25/16 */ 1.25rem  /* 20/16 */ 1.5625rem  /* 25/16 */;
+    color: #000021;
+    line-height: 1.875rem  /* 30/16 */;
+}
+
+.fa-brands {
+    font-size: 1.5em;
+}
+
+.fa-solid {
+    font-size: 1.5em;
+}
+
+.overlay__btn {
+    padding: 0.625rem  /* 10/16 */ 0 0.625rem  /* 10/16 */ 0;
+    margin-bottom: 1.5625rem  /* 25/16 */;
+    background: #10102E;
+    width: 40%;
+    border-radius: 3.125rem  /* 50/16 */;
+    cursor: pointer;
+    color: #e1e1e1;
+    font-weight: 600;
+    border: none;
+    margin-left: 1.5625rem  /* 25/16 */;
+    transition: all ease 0.3s;
+}
+
+.overlay__btn:hover {
+    background-color: #272768;
+    border: none;
+}
+
+.overlay__img {
+    width: 100%;
+}
+
+.overlay__container a {
+    text-decoration: none;
+}
+

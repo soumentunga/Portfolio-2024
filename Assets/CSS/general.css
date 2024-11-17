@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding: 6rem;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 120rem;
+    margin: auto;
+}
+
+p {
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+main hr {
+    margin: 2.5rem  /* 40/16 */ 5.25rem  /* 84/16 */;
+    border-color: rgb(157, 157, 157);
+}
+
+*::selection {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000000;
+}
